@@ -73,6 +73,13 @@ def load_prompt(name):
     with open("resources/prompts/" + name + ".txt", "r", encoding="utf8") as file:
         return file.read()
 
+def load_telegram_token():
+    with open("resources/tokens/telegram.txt", "r", encoding="utf8") as file:
+        return file.read()
+
+def load_gpt_token():
+    with open("resources/tokens/gpt.txt", "r", encoding="utf8") as file:
+        return file.read()
 
 class Dialog:
     pass
