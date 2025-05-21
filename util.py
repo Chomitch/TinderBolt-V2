@@ -82,4 +82,6 @@ def load_gpt_token():
         return file.read()
 
 class Dialog:
+    mode:str = ''
+    list:list = list()
     pass
