@@ -84,4 +84,6 @@ def load_gpt_token():
 class Dialog:
     mode:str = ''
     list:list = list()
+    user:dict = dict()
+    cnt:int = 0
     pass
